@@ -1,9 +1,18 @@
+/* Testing CSS in test page */
+
 body {
-  font-size: 14px;
-  font-family: arial, helvetica, sans-serif;
+  font: 14px arial, helvetica, sans-serif;
   color: navy;
   margin: 0;
   padding: 10px;
+}
+
+p, ul, ol {
+  line-height: 21px;
+}
+
+p::first-letter {
+  font-size: 20px;
 }
 
 h1 {
